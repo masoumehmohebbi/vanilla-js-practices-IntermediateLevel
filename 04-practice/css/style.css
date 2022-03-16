@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	border: 0.2rem solid #555 ;
+	width: 20rem;
+	height: 18rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0.3rem;
+	background-color: #eee;
+}
+form input{
+	width: 15rem;
+	height: 1.5rem;
+	border-radius: 0.2rem;
+}
+button{
+	width: 5rem;
+	padding: 0.5rem;
+	background-color: pink;
+	border-radius: 0.2rem;
+
+}
